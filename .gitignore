@@ -1,0 +1,28 @@
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets: never commit (.env.example IS committed)
+.env
+.env.*
+!.env.example
+
+# Python (P1, P2, P8)
+__pycache__/
+.venv/
+.pytest_cache/
+
+# Node / TypeScript (P3, P7)
+node_modules/
+dist/
+
+# Go (P4, P5)
+bin/
+
+# Java (P6, P8)
+target/
+
+# Local run output
+*.log
+data/
